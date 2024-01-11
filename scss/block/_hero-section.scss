@@ -1,0 +1,139 @@
+
+
+
+.hero {
+    @include display($space:space-between, );
+    padding-top: 105px;
+
+}
+.hero__section-left {
+    // width: 518px;
+    // height: 233px;
+    // flex-shrink: 0;
+}
+.hero__title-wrapper{
+    width: 518px;
+   
+}
+.hero__title{
+    color: #22343D;
+   
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+}
+.hero__section-text-wrap {
+    margin-top: 18px;
+    margin-bottom: 45px;
+    width: 458px;
+    height: 95px;
+    flex-shrink: 0;
+   
+}
+.hero__section-text {
+    color: #22343D;
+   
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+.hero__section-right {
+    // width: 600px;
+    // height: 555.724px;
+    // flex-shrink: 0;
+}
+
+.hero__links-wrap {
+    width: 366px;
+    height: 53px;
+    flex-shrink: 0;
+    @include display();
+}
+.hero__link {
+    padding: 15px 41px 14px 41px;
+    border-radius: 4px;
+    background: #02897A;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    &:hover{
+         opacity: 0.7;
+    }
+    &:active{
+        color: rgb(74, 250, 30);
+    }
+}
+.hero__link1 {
+    color: #02897A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+
+    &:hover{
+        opacity: 0.7;
+   }
+   &:active{
+    color: rgb(74, 250, 30);
+}
+}
+@media only screen and (max-width: 850px){
+    .hero__section-right{
+        width: 100%;
+        text-align: center;
+    }
+    .hero__img{
+        background: url(../../images/amicomb.svg) no-repeat center center; 
+
+        width: 100%;
+        text-align: center;
+        
+    }
+    .hero__section-left{
+        text-align: center;
+        width: 100%;
+    }
+    .hero{
+        flex-direction:column-reverse;
+        text-align: center;
+        width: 100%;
+    }
+    .hero__section-text{
+        width: 100%;
+        text-align: center;
+        width: 100%;
+    }
+    .hero__section-text{
+        text-align: center;
+        width: 100%;
+    }
+    .hero__title-wrapper{
+        text-align: center;
+        width: 100%;
+    }
+    .hero__section-text-wrap{
+        text-align: center;
+        width: 100%;
+    }
+    .hero__links-wrap{
+        text-align: center;
+        width: 100%;
+    }
+    .hero__link{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+}
+

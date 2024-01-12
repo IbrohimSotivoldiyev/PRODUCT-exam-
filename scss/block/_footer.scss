@@ -1,0 +1,123 @@
+.site-footer {
+}
+.container {
+}
+.footer {
+    @include display($space:space-between, $items:start);
+}
+
+.footer__media-link{
+     &:hover{
+       color: aqua;
+     }
+}
+.footer__media-icons{
+    &:hover{
+        background: rgb(0, 255, 195);
+      }
+
+}
+
+
+
+.footer__strong {
+   
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+  
+}
+.footer__strong:hover{
+     color: #02897A;
+     &:active{
+        opacity: 0.7;
+        background-color: aqua;
+   }
+}
+.footer-link {
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 218.75% */
+    &:hover{
+        color: #02897A;}
+        &:active{
+            opacity: 0.7;
+            background-color: aqua;
+       }
+   
+}
+.footer__linker {
+  
+}
+.footer__third {
+}
+.footer__third-list {
+}
+.footer__four {
+    width: 325px;
+    height: 199px;
+    flex-shrink: 0;
+}
+.footer__four-st {
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+.footer__form {
+}
+.footer__input-flex {
+}
+.footer__email {
+  
+    width: 325px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    
+    background: #FFF;
+    color: #BCD0E5;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+.footer__subs {
+    margin-top: 21px;
+    display: block;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 131px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #02897A;
+    &:hover{
+        color: #02897A;
+        background-color: white;
+    }
+    &:active{
+         opacity: 0.7;
+         background-color: aqua;
+    }
+}
+.footer__flex-cards {
+}
+.footer__cards {
+}

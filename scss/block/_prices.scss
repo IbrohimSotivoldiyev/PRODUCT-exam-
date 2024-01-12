@@ -1,5 +1,6 @@
 
 .prices__title {
+    text-align: center;
     color: #22343D;
     font-family: Poppins;
     font-size: 34px;
@@ -7,7 +8,11 @@
     font-weight: 700;
     line-height: normal;
 }
+.price__wrap{
+     text-align: center;
+}
 .prices__span {
+    text-align: center;
     color: #22343D;
     font-family: Poppins;
     font-size: 16px;
@@ -16,25 +21,53 @@
     line-height: normal;
 }
 .prices__list {
+    margin-top: 50px;
+     @include display($space:space-between);
+      
+   
+}
+.prices__list:nth-child(2){
+     
+}
+.prices__item {
+    text-align: center;
     width: 322.649px;
     height: 456px;
     flex-shrink: 0;
+
     border-radius: 8px;
     background: #FFF;
     
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    &:hover{
+        background: #07aa97;
+        color: white;
+
+
+    }
+
 }
-.prices__item {
+.prices__item + .prices__item {
+     margin-left: 71px;
 }
 .prices__item-title {
+    padding-top: 24px;
+    text-align: center;
     color: #22343D;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 166.667% */
+    &:hover{
+        
+        color: white;
+
+
+    }
 }
 .prices__item-text {
+    padding-bottom: 8px;
     color: #22343D;
     font-family: Poppins;
     font-size: 16px;
@@ -43,9 +76,17 @@
     line-height: 40px; /* 250% */
 }
 .prices__wrapper {
-    width: 154px;
+
+    
+    // width: 154px;
     height: 100px;
     flex-shrink: 0;
+    &:hover{
+        
+        color: white;
+
+
+    }
 
 }
 .prices__item-im {
@@ -85,6 +126,7 @@
     letter-spacing: 0.1px;
 }
 .prices__heading {
+    padding-top: 15px;
     color: #22343D;
 
     /* Link */
@@ -95,7 +137,11 @@
     line-height: 22px; /* 137.5% */
     letter-spacing: 0.2px;
 }
+.prices__heading + .prices__heading{
+     margin-top: 16px;
+}
 .prices__link-wrapper {
+    padding-top: 38px;
 
 }
 .prices__link {
@@ -117,5 +163,12 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    &:hover{
+        
+        color:  #02897A;
+        background: white;
+
+
+    }
     
 }

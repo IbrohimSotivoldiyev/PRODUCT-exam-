@@ -93,3 +93,36 @@
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.2px;
 }
+
+@media only screen and (max-width: 850px){
+    .clients__list{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .clients__item + .clients__item{
+         margin-top: 32px;
+         width: 100%;
+         text-align: center;
+    }
+    .clients__item-text{
+        width: 100%;
+        text-align: center;
+    }
+    .clients__img-wrap{
+        width: 100%;
+        text-align: center;
+    }
+    .clients__text{
+        width: 100%;
+        text-align: center;
+    }
+    .clients__title{
+        width: 100%;
+        text-align: center;
+    }
+    .clients__item{
+        width: 100%;
+        text-align: center;
+    }
+}

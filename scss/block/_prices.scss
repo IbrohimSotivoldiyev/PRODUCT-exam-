@@ -172,3 +172,32 @@
     }
     
 }
+ 
+
+
+
+@media only screen and (max-width: 850px){
+     .prices__list{
+         flex-direction: column;
+         width: 100%;
+         text-align: center;
+     }
+     .prices-section{
+         margin-top: 812px;
+     }
+     .price__wrap{
+         width: 100%;
+         text-align: center;
+     }
+     .prices__item{
+        width: 100%;
+        text-align: center;
+     }
+     .prices__item + .prices__item {
+         margin-top: 32px;
+     }
+     .prices__item-text{
+        width: 100%;
+        text-align: center;
+     }
+}

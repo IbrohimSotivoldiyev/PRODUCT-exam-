@@ -89,3 +89,8 @@
     height: 16px;
     flex-shrink: 0;
 }
+@media only screen and (max-width: 850px){
+     .contents__list{
+         flex-direction: column;
+     }
+}

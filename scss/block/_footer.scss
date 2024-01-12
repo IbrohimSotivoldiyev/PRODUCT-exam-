@@ -121,3 +121,89 @@
 }
 .footer__cards {
 }
+
+@media only screen and (max-width: 850px){
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }}
+    .site-footer {
+        width: 100%;
+        text-align: center;
+
+    }
+   
+   
+    .footer__first {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__linker1 {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__logo {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer__media {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__media-link {
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    .footer__second {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__linker {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__strong {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-link {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__third {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__third-list {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__four {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__four-st {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__form {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__input-flex {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__email {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__subs {
+        width: 100%;
+        text-align: center;
+    }
+    

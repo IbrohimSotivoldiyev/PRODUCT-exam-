@@ -1374,6 +1374,11 @@ template {
   flex-shrink: 0;
 }
 
+@media only screen and (max-width: 850px) {
+  .contents__list {
+    flex-direction: column;
+  }
+}
 .prices__title {
   text-align: center;
   color: #22343D;
@@ -1538,6 +1543,31 @@ template {
   background: white;
 }
 
+@media only screen and (max-width: 850px) {
+  .prices__list {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .prices-section {
+    margin-top: 812px;
+  }
+  .price__wrap {
+    width: 100%;
+    text-align: center;
+  }
+  .prices__item {
+    width: 100%;
+    text-align: center;
+  }
+  .prices__item + .prices__item {
+    margin-top: 32px;
+  }
+  .prices__item-text {
+    width: 100%;
+    text-align: center;
+  }
+}
 .clients {
   margin-top: 150px;
   margin-bottom: 150px;
@@ -1640,6 +1670,38 @@ template {
   letter-spacing: 0.2px;
 }
 
+@media only screen and (max-width: 850px) {
+  .clients__list {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .clients__item + .clients__item {
+    margin-top: 32px;
+    width: 100%;
+    text-align: center;
+  }
+  .clients__item-text {
+    width: 100%;
+    text-align: center;
+  }
+  .clients__img-wrap {
+    width: 100%;
+    text-align: center;
+  }
+  .clients__text {
+    width: 100%;
+    text-align: center;
+  }
+  .clients__title {
+    width: 100%;
+    text-align: center;
+  }
+  .clients__item {
+    width: 100%;
+    text-align: center;
+  }
+}
 .footer {
   display: flex;
   align-items: start;
@@ -1742,4 +1804,101 @@ template {
 .footer__subs:active {
   opacity: 0.7;
   background-color: aqua;
+}
+
+@media only screen and (max-width: 850px) {
+  .footer {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+}
+.site-footer {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__first {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__linker1 {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__logo {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__media {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__media-link {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__second {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__linker {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__strong {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-link {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__third {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__third-list {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__four {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__four-st {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__form {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__input-flex {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__email {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__subs {
+  width: 100%;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

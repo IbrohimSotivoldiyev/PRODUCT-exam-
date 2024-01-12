@@ -85,3 +85,47 @@
     height: 451.202px;
     flex-shrink: 0;
 }
+@media only screen and (max-width: 800px){
+     .optimisation{
+         flex-direction: column-reverse;
+         width: 100%;
+     }
+     .optimisation__content-img{
+        // background: url(../../images/amicomb.png) no-repeat center center; 
+        width: 100%;
+        text-align: center;
+     }
+     .optimisation__content-right{
+        width: 100%;
+        text-align: center;
+
+     }
+     .optimisation__content-span{
+        width: 100%;
+        text-align: center;
+     }
+     .optimisation__content-title{
+        width: 100%;
+        text-align: center;
+     }
+     .optimisation__text{
+        width: 100%;
+        text-align: center;
+     }
+     .optimisation__content-left{
+        width: 100%;
+        text-align: center;
+     }
+     .optimisation__content-wrap{
+        width: 100%;
+        text-align: center;
+     }
+     .optimisation__content-wrap2{
+        width: 100%;
+        text-align: center;
+     }
+     .optimisation__text-wrapper{
+        width: 100%;
+        text-align: center;
+     }
+}

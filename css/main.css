@@ -871,22 +871,59 @@ template {
 }
 
 @media only screen and (max-width: 800px) {
+  .manage-section {
+    padding-top: 156px;
+    padding-bottom: 800px;
+  }
   .manage {
     text-align: center;
     width: 100%;
     flex-direction: column-reverse;
   }
-  .special {
-    background-image: none;
-    margin-bottom: 300px;
-  }
-  .special__title-wrap {
-    width: 100%;
+  .man .manage__content-left {
     text-align: center;
-  }
-  .special__list {
     width: 100%;
+    display: flex;
+    width: 334px;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .manage__content-right {
+    text-align: center;
+    width: 100%;
+  }
+  .manage__content-img {
+    background: url(../../images/amicomb.svg) no-repeat center center;
+    text-align: center;
+    width: 100%;
+  }
+  .manage__content-span {
+    text-align: center;
+    width: 100%;
+  }
+  .manage__content-text {
+    text-align: center;
+    width: 100%;
+  }
+  .manage__content-title {
+    text-align: center;
+    width: 100%;
+  }
+  .manage__content-wrap {
+    text-align: center;
+    width: 100%;
+  }
+  .manage__content-wrap2 {
+    text-align: center;
+    width: 100%;
+  }
+  .manage__title {
+    width: 100%;
+  }
+  .manage__content-left {
+    width: 100%;
     text-align: center;
   }
 }
@@ -964,6 +1001,36 @@ template {
   line-height: 26px; /* 162.5% */
 }
 
+@media only screen and (max-width: 800px) {
+  .support {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .support__content-right {
+    width: 100%;
+    text-align: center;
+  }
+  .support__content-left {
+    width: 100%;
+    text-align: center;
+  }
+  .support__content-span {
+    width: 100%;
+    text-align: center;
+  }
+  .support__content-img {
+    width: 100%;
+    text-align: center;
+  }
+  .support__list {
+    width: 100%;
+    text-align: center;
+  }
+  .support__item {
+    width: 100%;
+    text-align: center;
+  }
+}
 .optimisation {
   display: flex;
   align-items: center;
@@ -1055,6 +1122,48 @@ template {
   flex-shrink: 0;
 }
 
+@media only screen and (max-width: 800px) {
+  .optimisation {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .optimisation__content-img {
+    width: 100%;
+    text-align: center;
+  }
+  .optimisation__content-right {
+    width: 100%;
+    text-align: center;
+  }
+  .optimisation__content-span {
+    width: 100%;
+    text-align: center;
+  }
+  .optimisation__content-title {
+    width: 100%;
+    text-align: center;
+  }
+  .optimisation__text {
+    width: 100%;
+    text-align: center;
+  }
+  .optimisation__content-left {
+    width: 100%;
+    text-align: center;
+  }
+  .optimisation__content-wrap {
+    width: 100%;
+    text-align: center;
+  }
+  .optimisation__content-wrap2 {
+    width: 100%;
+    text-align: center;
+  }
+  .optimisation__text-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+}
 .process-section {
   margin-bottom: 150px;
   height: 389.087px;

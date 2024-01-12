@@ -69,3 +69,34 @@
     line-height: 26px; /* 162.5% */
 }
 
+@media only screen and (max-width: 800px){
+    .support{
+         width: 100%;
+         flex-direction: column-reverse;
+    }
+    .support__content-right{
+         width: 100%;
+         text-align: center;
+    }
+    .support__content-left{
+        width: 100%;
+        text-align: center;
+    }
+    .support__content-span{
+        width: 100%;
+        text-align: center;
+    }
+    .support__content-img{
+        // background: url(../../images/laptopmb.png) no-repeat center center; 
+        width: 100%;
+        text-align: center;
+    }
+    .support__list{
+        width: 100%;
+        text-align: center;
+    }
+    .support__item{
+        width: 100%;
+        text-align: center;
+    }
+}

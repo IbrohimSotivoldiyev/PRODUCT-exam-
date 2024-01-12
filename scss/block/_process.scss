@@ -67,3 +67,36 @@
 .process__img-wrapper {
     @include display($space:space-between);
 }
+
+@media only screen and (max-width: 850px){
+    .process-section{
+        width: 100%;
+        text-align: center;
+   
+    };
+    .process__img-wrap{
+         flex-direction: column;
+         width: 100%;
+         text-align: center;
+    }
+    .process__img-wrapper{
+        width: 100%;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .process__wrap{
+        width: 100%;
+        text-align: center;
+    }
+    .process__title{
+        width: 100%;
+        text-align: center;
+    }
+    .process__text{
+        width: 100%;
+        text-align: center;
+    }
+    .process__link-wrap{
+        margin-bottom: 100px;
+    }
+}
